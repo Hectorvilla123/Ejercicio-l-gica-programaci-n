@@ -12,11 +12,11 @@ numero3 = Number(numero3);
 if (numero1 === numero2 && numero2 === numero3) {
     console.log("Los tres números son iguales.");
 } else if (numero1 === numero2) {
-    console.log("Los números 1 y 2 son iguales.");
+    console.log("El primer y segundo número son iguales.");
 } else if (numero1 === numero3) {
-    console.log("Los números 1 y 3 son iguales.");
+    console.log("El primer y tercer número son iguales.");
 } else if (numero2 === numero3) {
-    console.log("Los números 2 y 3 son iguales.");
+    console.log("El segundo y tercer número son iguales.");
 } else {
-    console.log("Ninguno de los números es igual.");
+    console.log("Ninguno de los números son iguales.");
 }
